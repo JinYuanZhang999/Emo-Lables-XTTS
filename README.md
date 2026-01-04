@@ -4,7 +4,7 @@
 ## Abstract
 Emotional expression plays a vital role in improving the naturalness and expressiveness of text-to-speech (TTS) systems. However, most existing emotional TTS approaches rely on emotional reference speech or emotion-labeled datasets with limited scale, which often leads to the entanglement of emotional information and speaker timbre, resulting in unstable emotion control. In this letter, we propose an explicit emotion label-based emotional control framework and construct a high-quality emotion-labeled speech dataset, termed ELDB (Emotion-Labeled Database). By introducing explicit emotion labels on the text side and employing neutral reference speech to represent speaker timbre, the proposed method effectively disentangles emotional characteristics from speaker identity. In addition, a two-stage fine-tuning strategy is adopted, together with an emotion embedding consistency loss, to enhance the robustness of emotion modeling. Experimental results demonstrate that the proposed approach consistently outperforms the baseline system and existing emotional TTS methods in both subjective and objective evaluations, achieving improved emotional expressiveness while maintaining high speech naturalness and speaker consistency.
 
-Audio samples:https://jinyuanzhang999.github.io/NeuralVC_Demo.github.io/
+Audio samples:https://drive.google.com/file/d/1RWXhxyS1spMJkm2-xaAegGa6oxS6YCzH/view?usp=drive_link
 
 We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_2ur6Uwr5Lq1g-C5-5FFUB5JkhHHhLPg9iQxKxFvHm0w?e=Zpcxec).
 
@@ -71,6 +71,7 @@ python train.py
 - https://github.com/OlaWod/FreeVC
 - https://github.com/quickvc/QuickVC-VoiceConversion
 - https://github.com/facebookresearch/encodec
+
 
 
 
