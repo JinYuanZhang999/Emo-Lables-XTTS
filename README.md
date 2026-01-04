@@ -40,7 +40,7 @@ Emotional expression plays a vital role in improving the naturalness and express
 
 ## Inference Example
 
-Download the pretrained checkpoints and run:
+Download the pretrained Model weights and run:
 
 ```bash
   # inference with Emo-Labels-XTTS
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
