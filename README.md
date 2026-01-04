@@ -21,15 +21,13 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 
 ## Pre-requisites
 
-1. Clone this repo:
-
+1. Clone this repo
 ```bash
 git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
 cd Emo-Lables-XTTS
 ```
 
 2.Create a Conda environment
-
 ```bash
 conda create -n Emo-Lables-XTTS python=3.9
 conda activate Emo-Lables-XTTS
@@ -37,11 +35,9 @@ pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https
 pip install -r requirements.txt
 ```
 
-3. CD into this repo: `cd Emo-Lables-XTTS`
+3. Download the [pretrained models](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS)
 
-4. Install python requirements: `pip install -r requirements.txt`
-
-5. Download the [VCTK](https://datashare.ed.ac.uk/handle/10283/3443) dataset (for training only)
+5. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB) dataset
 
 
 ## Inference Example
@@ -88,6 +84,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
