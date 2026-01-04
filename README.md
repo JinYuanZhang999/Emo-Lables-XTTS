@@ -21,9 +21,9 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 
 ## Pre-requisites
 
-1. Clone this repo: `git clone https://github.com/zzy1hjq/NeutralVC.git`
+1. Clone this repo: `git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git`
 
-2. CD into this repo: `cd NeuralVC`
+2. CD into this repo: `cd Emo-Lables-XTTS`
 
 3. Install python requirements: `pip install -r requirements.txt`
 
@@ -74,6 +74,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
