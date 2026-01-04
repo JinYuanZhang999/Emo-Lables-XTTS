@@ -67,10 +67,14 @@ python train.py
 
 ## References
 
+- [XTTS: a Massively Multilingual Zero-Shot Text-to-Speech Model](https://arxiv.org/abs/2406.04904)
+- https://github.com/coqui-ai/TTS
+- https://github.com/coqui-ai/TTS
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
 - https://github.com/facebookresearch/encodec
+
 
 
 
