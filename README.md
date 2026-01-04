@@ -1,7 +1,8 @@
-# NeuralVC Any-to-Any Voice Conversion Using Neural Networks Decoder For Real-Time Voice Conversion
+# End-to-End Text-to-Speech Based on Emotion Label Control
 
 
-In this paper, we adopt the end-to-end [VITS](https://arxiv.org/abs/2106.06103) framework for high-quality waveform reconstruction. By introducing HuBERT-Soft, we extract clean speech content information, and by incorporating a pre-trained speaker encoder, we extract speaker characteristics from the speech. Inspired by the structure of [speech compression models](https://arxiv.org/abs/2210.13438), we propose a **neural decoder** that synthesizes converted speech with the target speaker's voice by adding preprocessing and conditioning networks to receive and interpret speaker information. Additionally, we significantly improve the model's inference speed, achieving real-time voice conversion.
+## Abstract
+Emotional expression plays a vital role in improving the naturalness and expressiveness of text-to-speech (TTS) systems. However, most existing emotional TTS approaches rely on emotional reference speech or emotion-labeled datasets with limited scale, which often leads to the entanglement of emotional information and speaker timbre, resulting in unstable emotion control. In this letter, we propose an explicit emotion label-based emotional control framework and construct a high-quality emotion-labeled speech dataset, termed ELDB (Emotion-Labeled Database). By introducing explicit emotion labels on the text side and employing neutral reference speech to represent speaker timbre, the proposed method effectively disentangles emotional characteristics from speaker identity. In addition, a two-stage fine-tuning strategy is adopted, together with an emotion embedding consistency loss, to enhance the robustness of emotion modeling. Experimental results demonstrate that the proposed approach consistently outperforms the baseline system and existing emotional TTS methods in both subjective and objective evaluations, achieving improved emotional expressiveness while maintaining high speech naturalness and speaker consistency.
 
 Audio samples:https://jinyuanzhang999.github.io/NeuralVC_Demo.github.io/
 
@@ -70,3 +71,4 @@ python train.py
 - https://github.com/OlaWod/FreeVC
 - https://github.com/quickvc/QuickVC-VoiceConversion
 - https://github.com/facebookresearch/encodec
+
