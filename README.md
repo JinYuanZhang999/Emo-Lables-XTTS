@@ -8,6 +8,7 @@ Audio samples:https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS
 
 We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_2ur6Uwr5Lq1g-C5-5FFUB5JkhHHhLPg9iQxKxFvHm0w?e=Zpcxec).
 
+## Model Architecture
 <table style="width:100%; text-align:center;">
   <tr>
     <td style="text-align:center;"><img src="./Model_Architecture.png" alt="model framework" style="width:100%;"></td>
@@ -73,6 +74,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
