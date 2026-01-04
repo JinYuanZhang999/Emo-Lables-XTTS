@@ -12,9 +12,6 @@ Emotional expression plays a vital role in improving the naturalness and express
   <tr>
     <td style="text-align:center;"><img src="./Model_Architecture.png" alt="model framework" style="width:100%;"></td>
   </tr>
-  <tr>
-    <th>Model Framework</th>
-  </tr>
 </table>
 
 
@@ -83,6 +80,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
