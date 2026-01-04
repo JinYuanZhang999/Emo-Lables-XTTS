@@ -1,6 +1,6 @@
 # End-to-End Text-to-Speech Based on Emotion Label Control
 
-[![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://jinyuanzhang999.github.io/NeuralVC_Demo.github.io/)  [![HuggingFace](https://img.shields.io/badge/HuggingFace-Demo-blue?logo=huggingface)](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)  
+[![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://jinyuanzhang999.github.io/NeuralVC_Demo.github.io/)  [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-blue?logo=huggingface)](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)  
 
 
 ## Abstract
@@ -85,6 +85,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
