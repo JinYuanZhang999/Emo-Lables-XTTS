@@ -24,6 +24,7 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 1. Clone this repo:
 
    git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
+   
    cd Emo-Lables-XTTS
 
 3. CD into this repo: `cd Emo-Lables-XTTS`
@@ -77,6 +78,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
