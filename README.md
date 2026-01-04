@@ -21,13 +21,15 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 
 ## Pre-requisites
 
-1. Clone this repo: `git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git`
+1. Clone this repo:
+   git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
+   cd Emo-Lables-XTTS
 
-2. CD into this repo: `cd Emo-Lables-XTTS`
+3. CD into this repo: `cd Emo-Lables-XTTS`
 
-3. Install python requirements: `pip install -r requirements.txt`
+4. Install python requirements: `pip install -r requirements.txt`
 
-4. Download the [VCTK](https://datashare.ed.ac.uk/handle/10283/3443) dataset (for training only)
+5. Download the [VCTK](https://datashare.ed.ac.uk/handle/10283/3443) dataset (for training only)
 
 
 ## Inference Example
@@ -74,6 +76,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
