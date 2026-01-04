@@ -17,14 +17,14 @@ Emotional expression plays a vital role in improving the naturalness and express
 
 ## Pre-requisites
 
-### 1. Clone this repo
+1. Clone this repo
 
 ```bash
   git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
   cd Emo-Lables-XTTS
 ```
 
-### 2. Create a Conda environment
+2. Create a Conda environment
 
 ```bash
   conda create -n Emo-Lables-XTTS python=3.9
@@ -33,9 +33,9 @@ Emotional expression plays a vital role in improving the naturalness and express
   pip install -r requirements.txt
 ```
 
-### 3. Download the [pretrained models](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)
+3. Download the [pretrained models](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)
 
-### 4. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB/tree/main) dataset
+4. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB/tree/main) dataset
 
 
 ## Inference Example
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
