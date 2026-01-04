@@ -1,12 +1,13 @@
 # End-to-End Text-to-Speech Based on Emotion Label Control
 
+[![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://jinyuanzhang999.github.io/NeuralVC_Demo.github.io/)  [![HuggingFace](https://img.shields.io/badge/arXiv-2307.00024-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2307.00024)  
+
 
 ## Abstract
 Emotional expression plays a vital role in improving the naturalness and expressiveness of text-to-speech (TTS) systems. However, most existing emotional TTS approaches rely on emotional reference speech or emotion-labeled datasets with limited scale, which often leads to the entanglement of emotional information and speaker timbre, resulting in unstable emotion control. In this letter, we propose an explicit emotion label-based emotional control framework and construct a high-quality emotion-labeled speech dataset, termed ELDB (Emotion-Labeled Database). By introducing explicit emotion labels on the text side and employing neutral reference speech to represent speaker timbre, the proposed method effectively disentangles emotional characteristics from speaker identity. In addition, a two-stage fine-tuning strategy is adopted, together with an emotion embedding consistency loss, to enhance the robustness of emotion modeling. Experimental results demonstrate that the proposed approach consistently outperforms the baseline system and existing emotional TTS methods in both subjective and objective evaluations, achieving improved emotional expressiveness while maintaining high speech naturalness and speaker consistency.
 
 Audio samples:https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS
 
-We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_2ur6Uwr5Lq1g-C5-5FFUB5JkhHHhLPg9iQxKxFvHm0w?e=Zpcxec).
 
 ## Model Architecture
 <table style="width:100%; text-align:center;">
@@ -84,6 +85,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
