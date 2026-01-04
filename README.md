@@ -38,7 +38,7 @@ Emotional expression plays a vital role in improving the naturalness and express
 4. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB/tree/main) dataset
 
 
-## Inference Example
+## Inference
 
 Download the pretrained Model weights and run:
 
@@ -48,7 +48,7 @@ Download the pretrained Model weights and run:
   python ./TTS/demos/xtts_ft_demo.py
 ```
 
-## Training Example
+## Training 
 
 1. Preprocess
 
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
