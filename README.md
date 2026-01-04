@@ -44,7 +44,7 @@ Download the pretrained Model weights and run:
 
 ```bash
   # inference with Emo-Labels-XTTS
-  # Run and provide relevant parameters in the inference interface of the WebUI.
+  # run and provide relevant parameters in the inference interface of the WebUI
   python ./TTS/demos/xtts_ft_demo.py
 ```
 
@@ -52,25 +52,22 @@ Download the pretrained Model weights and run:
 
 ### Stage 1:Pre-fine-tune using the constructed emotion label dataset
 
-```python
+```bash
 
-# run this if you want a different train-val-test split
-python preprocess_flist.py
-
-# run this if you want to use pretrained speaker encoder
-python preprocess_spk.py
-
-# run this if you want to use a different content feature extractor.
-python preprocess_code.py
+  # 1. rename the gpt_trainer_for_stage1-train.py file (which does not incorporate the ECL loss) located in the project root directory to gpt_trainer.py,and     replace the gpt_trainer.py file in ./TTS/tts/layers/xtts/trainer/(which includes the ECL loss) with it
+  
+  # 2. rename the trainer_for_stage1-train.py file (which performs full fine-tuning of GPT-2) in the project root directory to trainer.py, and replace the trainer.py file located at [your Conda environment directory]/lib/python3.9/site-packages/trainer/trainer.py with it.
+  
+  # 3. run and set the number of training epochs to 5
+  python preprocess_code.py
 
 ```
 
 ### Stage 2:Introduce the Emotion Consistency Loss (ECL) and fine-tune only the last layer of GPT-2
 
-```python
-# train NeuralVC
-python train.py
-
+```bash
+  # train NeuralVC
+  python train.py
 
 ```
 
@@ -82,6 +79,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
