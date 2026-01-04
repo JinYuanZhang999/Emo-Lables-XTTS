@@ -50,7 +50,7 @@ Download the pretrained Model weights and run:
 
 ## Training 
 
-1. Preprocess
+1. Stage 1:Pre-fine-tune using the constructed emotion label dataset
 
 ```python
 
@@ -65,7 +65,7 @@ python preprocess_code.py
 
 ```
 
-2. Train
+2. Stage 2:Introduce the Emotion Consistency Loss (ECL) and fine-tune only the last layer of GPT-2
 
 ```python
 # train NeuralVC
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
