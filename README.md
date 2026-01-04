@@ -44,7 +44,7 @@ Download the pretrained Model weights and run:
 
 ```bash
   # inference with Emo-Labels-XTTS
-  # Replace the corresponding parameters
+  # Run and provide relevant parameters in the inference interface of the WebUI.
   python ./TTS/demos/xtts_ft_demo.py
 ```
 
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
