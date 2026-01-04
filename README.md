@@ -23,8 +23,8 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 
 1. Clone this repo
 ```bash
-git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
-cd Emo-Lables-XTTS
+  git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
+  cd Emo-Lables-XTTS
 ```
 
 2.Create a Conda environment
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 3. Download the [pretrained models](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS)
 
-5. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB) dataset
+4. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB) dataset
 
 
 ## Inference Example
@@ -84,6 +84,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
