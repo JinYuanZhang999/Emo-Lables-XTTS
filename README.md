@@ -23,14 +23,18 @@ We also provide the [pretrained models](https://1drv.ms/f/c/87587ec0bae9be5a/Ek_
 
 1. Clone this repo:
 
-```python
-   git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
-   cd Emo-Lables-XTTS
+```bash
+git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
+cd Emo-Lables-XTTS
 ```
 
+2.Create a Conda environment
+
 ```bash
-  git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
-  cd Emo-Lables-XTTS
+conda create -n Emo-Lables-XTTS python=3.9
+conda activate Emo-Lables-XTTS
+pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
 ```
 
 3. CD into this repo: `cd Emo-Lables-XTTS`
@@ -84,6 +88,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
