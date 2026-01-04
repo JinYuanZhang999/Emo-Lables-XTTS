@@ -2,3 +2,26 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# ===== binary / compiled artifacts =====
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# virtual env
+.venv/
+venv/
