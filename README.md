@@ -10,7 +10,7 @@ Emotional expression plays a vital role in improving the naturalness and express
 ## Model Architecture
 <table style="width:100%; text-align:center;">
   <tr>
-    <td style="text-align:center;"><img src="./Model_Architecture.png" alt="model framework" style="width:80%;"></td>
+    <td style="text-align:center;"><img src="./Model_Architecture.png" alt="model framework" style="width:100%;"></td>
   </tr>
 </table>
 
@@ -42,10 +42,10 @@ Emotional expression plays a vital role in improving the naturalness and express
 
 Download the pretrained checkpoints and run:
 
-```python
-# inference with NeuralVC
-# Replace the corresponding parameters
-convert.ipynb
+```bash
+  # inference with Emo-Labels-XTTS
+  # Replace the corresponding parameters
+  python ./TTS/demos/xtts_ft_demo.py
 ```
 
 ## Training Example
@@ -82,6 +82,7 @@ python train.py
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
