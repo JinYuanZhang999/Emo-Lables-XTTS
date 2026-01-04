@@ -1,0 +1,2 @@
+faster_whisper
+gradio==4.7.1
