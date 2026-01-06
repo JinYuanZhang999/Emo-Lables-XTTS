@@ -8,11 +8,7 @@ Emotional expression plays a vital role in improving the naturalness and express
 
 
 ## Model Architecture
-<table style="width:100%; text-align:center;">
-  <tr>
-    <td style="text-align:center;"><img src="./Model_Architecture.png" alt="model framework" style="width:100%;"></td>
-  </tr>
-</table>
+
 
 
 ## Pre-requisites
@@ -86,6 +82,7 @@ Download the pretrained Model weights and run:
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
