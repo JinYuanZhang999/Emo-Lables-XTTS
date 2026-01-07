@@ -1,4 +1,4 @@
-# End-to-End Text-to-Speech Based on Emotion Label Control
+# End-to-End Text-to-Speech With Emotion Label-Based Control
 
 [![githubio](https://img.shields.io/badge/GitHub.io-Demo-blue?logo=Github&style=flat-square)](https://jinyuanzhang999.github.io/Emo-Lables-XTTS_Demo/)  [![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-blue?logo=huggingface)](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)  [![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/Jinyuan0910/ELDB/tree/main)
 
@@ -88,6 +88,7 @@ Download the pretrained Model weights and run:
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
