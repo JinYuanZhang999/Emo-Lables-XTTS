@@ -54,7 +54,9 @@ Download the pretrained Model weights and run:
 
 ### Stage 1 : Pre-fine-tune using the constructed emotion label dataset
 
+<p align="justify">
 1. rename the gpt_trainer_for_stage1-train.py file (which does not incorporate the ECL loss) located in the project root directory to gpt_trainer.py,and     replace the gpt_trainer.py file in ./TTS/tts/layers/xtts/trainer/ with it
+</p>
 
 2. rename the trainer_for_stage1-train.py file (which performs full fine-tuning of GPT-2) in the project root directory to trainer.py, and replace the trainer.py file located at [your Conda environment directory]/lib/python3.9/site-packages/trainer/trainer.py with it
 
@@ -88,6 +90,7 @@ Download the pretrained Model weights and run:
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
