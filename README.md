@@ -75,9 +75,13 @@ Download the pretrained Model weights and run:
 
 ### Stage 2 : Introduce the Emotion Consistency Loss (ECL) and fine-tune only the last layer of GPT-2
 
+<p align="justify">
 1. rename the gpt_trainer_for_stage2-train.py file (which incorporate the ECL loss) located in the project root directory to gpt_trainer.py,and     replace the gpt_trainer.py file in ./TTS/tts/layers/xtts/trainer/ with it
+</p>
 
+<p align="justify">
 2. rename the trainer_for_stage2-train.py file (which fine-tunes only the last layer of GPT-2) in the project root directory to trainer.py, and replace the trainer.py file located at [your Conda environment directory]/lib/python3.9/site-packages/trainer/trainer.py with it
+</p>
 
 3. run and modify the relevant parameters
 
@@ -95,6 +99,7 @@ Download the pretrained Model weights and run:
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
