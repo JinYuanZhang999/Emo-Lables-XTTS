@@ -19,14 +19,18 @@ Emotional expression plays a vital role in improving the naturalness and express
 
 ## Pre-requisites
 
+<p align="justify">
 1. Clone this repo
+</p>
 
 ```bash
   git clone https://github.com/JinYuanZhang999/Emo-Lables-XTTS.git
   cd Emo-Lables-XTTS
 ```
 
+<p align="justify">
 2. Create a Conda environment
+</p>
 
 ```bash
   conda create -n Emo-Lables-XTTS python=3.9
@@ -35,9 +39,13 @@ Emotional expression plays a vital role in improving the naturalness and express
   pip install -r requirements.txt
 ```
 
+<p align="justify">
 3. Download the [pretrained models](https://huggingface.co/Jinyuan0910/Emo-Lables-XTTS/tree/main)
+</p>
 
+<p align="justify">
 4. Download the [ELDB](https://huggingface.co/datasets/Jinyuan0910/ELDB/tree/main) dataset
+</p>
 
 
 ## Inference
@@ -83,7 +91,9 @@ Download the pretrained Model weights and run:
 2. rename the trainer_for_stage2-train.py file (which fine-tunes only the last layer of GPT-2) in the project root directory to trainer.py, and replace the trainer.py file located at [your Conda environment directory]/lib/python3.9/site-packages/trainer/trainer.py with it
 </p>
 
+<p align="justify">
 3. run and modify the relevant parameters
+</p>
 
 ```bash
 
@@ -99,6 +109,7 @@ Download the pretrained Model weights and run:
 - https://github.com/coqui-ai/TTS
 - https://github.com/neonbjb/tortoise-tts
 - https://github.com/ddlBoJack/emotion2vec
+
 
 
 
